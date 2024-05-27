@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design nach Maß</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body style="background-image: url('https://images.pexels.com/photos/1910236/pexels-photo-1910236.jpeg?cs=srgb&dl=pexels-bruthethe-1910236.jpg&fm=jpg'); background-size: cover; background-position: center; background-repeat: no-repeat;">
+    <div class="container">
+        <h1><span>Design</span> nach Maß</h1>
+        <a href="formular.html" class="button">Termin buchen</a>
+    </div>
+    <a href="#impressum" class="impressum">Impressum</a>
+
+    <div id="impressum" style="display: none;">
+        <h2>Impressum</h2>
+        <p>Name des Unternehmens</p>
+        <p>Adresse des Unternehmens</p>
+        <p>Kontaktinformationen</p>
+        <p>Registrierungs- oder Handelsregisternummer (falls vorhanden)</p>
+    </div>
+
+    <script>
+        document.querySelector('.impressum').addEventListener('click', function() {
+            document.getElementById('impressum').style.display = 'block';
+        });
+    </script>
+</body>
+</html>

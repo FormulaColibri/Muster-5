@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+.container {
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+h1 {
+    font-size: 3em;
+    position: relative;
+}
+
+h1 span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(to right, black 50%, white 50%);
+    -webkit-background-clip: text;
+    color: transparent;
+    z-index: -1;
+}
+
+.button {
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    font-size: 1.5em;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: #333;
+}
+
+.impressum {
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.impressum:hover {
+    text-decoration: underline;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    margin-top: 10px;
+    font-size: 1.2em;
+}
+
+input {
+    margin: 5px 0 15px 0;
+    padding: 10px;
+    font-size: 1em;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 80%;
+    max-width: 400px;
+}
+
+button[type="submit"] {
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    font-size: 1.2em;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+}
+
+button[type="submit"]:hover {
+    background-color: #333;
+}
