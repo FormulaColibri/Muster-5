@@ -13,11 +13,6 @@ body {
     transform: translateY(-50%);
 }
 
-h1 {
-    font-size: 3em;
-    position: relative;
-}
-
 h1 span {
     position: absolute;
     top: 0;
